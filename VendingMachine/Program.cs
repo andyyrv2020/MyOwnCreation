@@ -15,7 +15,32 @@
 
             if (input == "a" || input == "A")
             {
+                Console.WriteLine("You've selected water, would you like to buy something else?");
+                string input2 = Console.ReadLine();
+                if (input2 == "yes" || input2 == "y" || input2 == "Yes" )
+                {
 
+                }
+            }
+
+            else if (input == "b" || input == "b")
+            {
+                Console.WriteLine("You've selected Brownie, would you like to buy something else?");
+                string input2 = Console.ReadLine();
+                if (input2 == "yes" || input2 == "y" || input2 == "Yes")
+                {
+
+                }
+            }
+
+            else if (input == "c" || input == "c")
+            {
+                Console.WriteLine("You've selected Napkins, would you like to buy something else?");
+                string input2 = Console.ReadLine();
+                if (input2 == "yes" || input2 == "y" || input2 == "Yes")
+                {
+
+                }
             }
 
         }
